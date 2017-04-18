@@ -135,7 +135,7 @@ WIFI_DRIVER_DEFAULT := qca_cld3
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 
 # Inherit from the proprietary version
--include vendor/xiaomi/sdm845-common/BoardConfigVendor.mk
+include vendor/xiaomi/sdm845-common/BoardConfigVendor.mk
 
 # Broken Rules
 BUILD_BROKEN_DUP_RULES := true
