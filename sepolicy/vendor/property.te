@@ -7,4 +7,6 @@ vendor_internal_prop(vendor_dpps_prop);
 
 vendor_public_prop(vendor_fp_prop);
 
-type vendor_slm_prop, property_type;
+vendor_internal_prop(vendor_slm_prop);
+
+vendor_internal_prop(vendor_qspm_prop);
