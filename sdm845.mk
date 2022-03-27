@@ -465,6 +465,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.weaver@1.0 \
     android.hardware.weaver@1.0.vendor
+    
+# Qtimapper Shim
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.display.mappershim \
+    vendor.qti.hardware.display.mapperextensionsshim \
+    android.hardware.graphics.mappershim
 
 # WiFi
 PRODUCT_PACKAGES += \
