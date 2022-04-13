@@ -269,7 +269,7 @@ PRODUCT_COPY_FILES += \
 
 # IFAA manager
 PRODUCT_PACKAGES += \
-    org.ifaa.android.manager
+    IFAAService
 
 # IMS
 PRODUCT_PACKAGES += \
@@ -341,7 +341,7 @@ PRODUCT_COPY_FILES += \
 # Mlipay
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.mlipay@1.1.vendor:64
-    
+
 # Net
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.0 \
