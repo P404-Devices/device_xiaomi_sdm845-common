@@ -50,3 +50,6 @@ persist.vendor.slm.        u:object_r:vendor_slm_prop:s0
 # Thermal
 persist.sys.thermal.       u:object_r:thermal_engine_prop:s0
 sys.thermal.               u:object_r:thermal_engine_prop:s0
+
+# WFD
+persist.vendor.setWFDInfo.               u:object_r:vendor_wfd_sys_debug_prop:s0
