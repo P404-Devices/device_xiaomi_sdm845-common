@@ -772,9 +772,5 @@ vendor/bin/cnss-daemon
 vendor/bin/nv_mac
 
 # WiFi Display - from OnePlus6 - RKQ1.201217.002/2107130217
-system_ext/lib/libmmosal.so|3a5d70735a743d9a4835c37e07a465c73511aff1
-system_ext/lib/libmmparser_lite.so|b462c783d78992794ff985f46f5b0e99af6007c7
-system_ext/lib64/libmmosal.so|4f3c95922f3252916a735b2d25354b56d857bb54
-system_ext/lib64/libmmparser_lite.so|fa4f80b5f37267a5246f1e1f2d086dd3ffd165b4
 vendor/lib/libFileMux_proprietary.so|1e125137fcc2c1843cc14e3ec34fc1068fc6bc14
 vendor/lib/libmmosal.so|e0190e4d2a40519d82cfe419664bed2543472890

@@ -19,6 +19,8 @@ TARGET_BOARD_PLATFORM := sdm845
 
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
+    av \
+    wfd \
     display \
     usb  \
     telephony \
