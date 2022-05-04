@@ -470,6 +470,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libnl \
     libwfdaac_vendor
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml
     
 # Qtimapper Shim
 PRODUCT_PACKAGES += \
