@@ -100,6 +100,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Power
 TARGET_POWERHAL_MODE_EXT := $(COMMON_PATH)/power/power-mode.cpp
 TARGET_USES_INTERACTION_BOOST := true
+TARGET_TAP_TO_WAKE_EVENT_NODE := "/dev/input/event2"
 
 # Properties
 TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
