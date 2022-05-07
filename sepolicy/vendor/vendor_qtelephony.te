@@ -1,0 +1,1 @@
+allow vendor_qtelephony hal_datafactory_service:hwservice_manager find;
