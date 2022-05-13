@@ -68,9 +68,6 @@ ro.vendor.qti.sys.fw.bservice_enable=true
 # Netflix custom property
 ro.netflix.bsp_rev=Q845-05000-1
 
-# QC framework value-adds
-ro.vendor.qti.va_aosp.support=1
-
 # RCS
 persist.rcs.supported=1
 
