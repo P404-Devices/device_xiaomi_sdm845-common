@@ -27,6 +27,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     telephony \
     perf \
     wlan \
+    vibrator \
     bt 
 
 # Component overrides
@@ -464,9 +465,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.weaver@1.0 \
     android.hardware.weaver@1.0.vendor
-# Vibrator
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.xiaomi_sdm845
 
 # WiFi
 PRODUCT_PACKAGES += \
