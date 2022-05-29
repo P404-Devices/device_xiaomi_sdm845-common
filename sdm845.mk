@@ -465,6 +465,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.weaver@1.0 \
     android.hardware.weaver@1.0.vendor
+
+# WiFi Display
+PRODUCT_PACKAGES += \
+    libnl \
+    libwfdaac_vendor
     
 # Qtimapper Shim
 PRODUCT_PACKAGES += \
