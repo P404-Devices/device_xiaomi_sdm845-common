@@ -303,7 +303,7 @@ vendor/firmware/a630_zap.mdt
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
 system_ext/framework/com.android.hotwordenrollment.common.util.jar|bef92589e75a6da6043f85f4b9b0e85866429624
 
-# IMS - from pyxis - RKQ1.200826.002/21.3.31
+# IMS - from PNX - RKQ1.200906.002
 vendor/bin/ims_rtp_daemon|2c995a884bbde9f37a44a10ac8fb694b30af97ea
 vendor/bin/imsdatadaemon|eb09aed86816127ef752c07c027d3ede9000f549
 vendor/bin/imsqmidaemon|72f9810942d727b7608a96dc481346ec3c97b9c6
@@ -311,7 +311,7 @@ vendor/bin/imsrcsd|c4a5cf31cda60ab50955631538cddd1e7fa1d844
 vendor/etc/init/ims_rtp_daemon.rc|06510e936890f51aeb76f2cf3ed5dbe45e67ac20
 vendor/etc/init/imsdatadaemon.rc
 vendor/etc/init/imsqmidaemon.rc
-vendor/etc/init/imsrcsd.rc|b54ef0ee372a909d4112b3feb933c608c10324cb
+vendor/etc/init/imsrcsd.rc|2dc42ff6e4b6dd389bd3bc9a7af30dec2f1a45df
 vendor/etc/seccomp_policy/imsrtp.policy|7ea8b4012da7bde98fc91bd882185b32784793cc
 vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so|193fc19943985cca25fa46eeaa12381f00f03648
 vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so|4ad6ddf1f5d6721e21aa8bd3ecdb32379eaa3eb4
