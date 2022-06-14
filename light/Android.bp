@@ -1,5 +1,4 @@
-// Copyright (C) 2018,2020 The LineageOS Project
-// Copyright (C) 2020 The PixelExperience Project
+// Copyright (C) 2018 The LineageOS Project
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -17,8 +16,9 @@ cc_binary {
     relative_install_path: "hw",
     defaults: ["hidl_defaults"],
     name: "android.hardware.light@2.0-service.xiaomi_sdm845",
-    init_rc: ["hidl/android.hardware.light@2.0-service.xiaomi_sdm845.rc"],
-    srcs: ["hidl/service.cpp", "hidl/Light.cpp"],
+    init_rc: ["android.hardware.light@2.0-service.xiaomi_sdm845.rc"],
+    overrides: ["android.hardware.lights-service.qti"],
+    srcs: ["service.cpp", "Light.cpp"],
     vendor: true,
     shared_libs: [
         "android.hardware.light@2.0",
@@ -27,24 +27,5 @@ cc_binary {
         "libhidlbase",
         "liblog",
         "libutils",
-    ],
-}
-
-cc_binary {
-    name: "android.hardware.lights-service.xiaomi_sdm845",
-    relative_install_path: "hw",
-    init_rc: ["aidl/android.hardware.lights-xiaomi_sdm845.rc"],
-    vintf_fragments: ["aidl/android.hardware.lights-xiaomi_sdm845.xml"],
-    vendor: true,
-    shared_libs: [
-        "libbase",
-        "liblog",
-        "libhardware",
-        "libbinder_ndk",
-        "android.hardware.light-V1-ndk_platform",
-    ],
-    srcs: [
-        "aidl/Lights.cpp",
-        "aidl/main.cpp",
     ],
 }

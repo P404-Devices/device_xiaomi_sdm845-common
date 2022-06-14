@@ -19,6 +19,7 @@ TARGET_BOARD_PLATFORM := sdm845
 
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
+    display \
     usb 
 
 # Component overrides
@@ -198,22 +199,10 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.3-service \
-    android.hardware.graphics.mapper@2.0-impl-qti-display \
-    android.hardware.memtrack@1.0-impl \
-    android.hardware.memtrack@1.0-service \
     android.hidl.allocator@1.0 \
     android.hidl.allocator@1.0.vendor \
-    gralloc.sdm845 \
-    hwcomposer.sdm845 \
-    libdisplayconfig.qti \
-    libqdMetaData \
     libtinyxml \
-    libtinyxml.vendor \
-    memtrack.sdm845 \
-    vendor.display.config@1.0.vendor \
-    vendor.display.config@2.0 \
-    vendor.qti.hardware.display.allocator@1.0-service
+    libtinyxml.vendor 
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -307,9 +296,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.xiaomi_sdm845 \
-    android.hardware.light@2.0 \
-    android.hardware.light@2.0.vendor
+    android.hardware.light@2.0-service.xiaomi_sdm845 
 
 # Media
 PRODUCT_PACKAGES += \
