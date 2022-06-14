@@ -19,6 +19,7 @@ TARGET_BOARD_PLATFORM := sdm845
 
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
+    overlay  \
     av \
     wfd \
     display \
@@ -38,10 +39,14 @@ PRODUCT_PACKAGES += \
     offload.o
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay 
-
-PRODUCT_ENFORCE_RRO_TARGETS := *
+PRODUCT_PACKAGES += \
+    SDM845Bluetooth \
+    SDM845Frameworks \
+    SDM845Settings \
+    SDM845SettingsProvider \
+    SDM845SystemUI \
+    SDM845WifiOverlay \
+    SDM845Tethering 
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Launcher3QuickStep \
@@ -434,10 +439,6 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi
 
-# Tethering
-PRODUCT_PACKAGES += \
-    TetheringConfigOverlay
-
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.qti \
@@ -491,7 +492,6 @@ PRODUCT_PACKAGES += \
     hostapd \
     libwifi-hal-qcom \
     libwpa_client \
-    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
 
